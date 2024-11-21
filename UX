@@ -1,0 +1,16 @@
+smcoid:
+
+
+
+unstructured ideas:
+
+non_interactive should be the default: 
+interactive should be behind flag -I
+global: show all smcoids should be default when outside of a view -g
+ENV var when set should be the default but should be able to be overwrote. flag to ignore ENV -n 
+when only one is available it should be saved automatically -N
+
+when inside the rac -l should avoid the instances from sorting
+
+
+flags:
