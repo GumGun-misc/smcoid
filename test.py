@@ -7,7 +7,7 @@ from simple_term_menu import TerminalMenu
 
 current_file_path = Path(__file__).resolve()
 current_dir = current_file_path.parent
-sys.path.append(f"{current_dir}/../parser")
+sys.path.append(f"{current_dir}/../")
 
 def try_int(potential_int):
     try:
@@ -16,8 +16,7 @@ def try_int(potential_int):
         return None
 
 # Importar el módulo
-from hola import test
-from parser import smcoid_parser, smcoid_interpreter
+#from parser import smcoid_parser, smcoid_interpreter
 
 
 def sort_cmp(item):
@@ -55,7 +54,7 @@ def print_options(options):
 def main():
     
     options = {
-        "interactive":False,
+        "interactive":True,
         "rac": True,
         "line": False,
         "instance": 4,
